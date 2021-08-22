@@ -1,0 +1,43 @@
+.modal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    padding-left: 15%;
+}
+
+.modal-content {
+    width: 80%;
+    background-color: #fff;
+}
+
+.modal-body {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 30%;
+}
+
+.image__container{
+    width: 70%;
+    height: 350px;
+}
+
+.modal-body--image{
+    height: 100%;
+    object-fit: contain;
+}
